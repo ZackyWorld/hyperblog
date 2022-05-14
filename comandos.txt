@@ -1,8 +1,17 @@
 Para un proyecto:
-git config alias.arbolito "log --all --graph --decorate --oneline"
+git config alias.superlog "log --all --graph --decorate --oneline"
 
 Global:
-git config --global alias.arbolito "log --all --graph --decorate --oneline"
+git config --global alias.superlog "log --all --graph --decorate --oneline"
 
 Para correrlo:
-git arbolito
+git superlog
+
+Fork
+git remote add <nombre_del_remoto> <url_del_remoto>
+ 
+git remote upstream https://github.com/freddier/hyperblog
+git pull <remoto> <rama>
+git pull upstream master
+git pull upstream master
+git push origin master
